@@ -1,3 +1,7 @@
+# Prueba el proyecto // Try the project
+
+https://carlosriobos.github.io/piano/
+
 # Empaquetadores web
 
 - Tengo ofuscacion
@@ -32,9 +36,16 @@ npm install tone
 # Añadir el empaquetador parcel (dependencia de desarrollo)
 npm install --save-dev parcel
 
-# Construimos y arrancamos la aplicacion\
+# Construimos y arrancamos la aplicacion
 npx parcel src/index.html
 npx parcel build src/index.html
 
 # Añadimos la libreria react
 npm install react react-dom
+
+# Comitear a github
+git init
+git add .
+git commit -m "first commit"
+git remote add origin {link del repositorio}
+git push origin master
